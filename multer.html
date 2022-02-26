@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>단일 업로드</h1>
+    <form
+      action="http://localhost:3000/profile"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="myFile" />
+      <input type="submit" value="업로드" />
+    </form>
+
+    <h1>다중 업로드</h1>
+    <form
+      action="http://localhost:3000/profile2"
+      method="post"
+      enctype="multipart/form-data"
+    >
+      <input type="file" name="myFile" multiple />
+      <input type="submit" value="업로드" />
+    </form>
+  </body>
+</html>
