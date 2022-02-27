@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\KSJ\\Desktop\\node-project\\logs\\.2664f24dfebffbcd217411277264c46c49241b79-audit.json",
+    "files": [
+        {
+            "date": 1645967572431,
+            "name": "C:\\Users\\KSJ\\Desktop\\node-project\\logs\\2022-02-27.error.log",
+            "hash": "25b9af7ea444cce2483b544dc5a5fc1e"
+        }
+    ],
+    "hashType": "md5"
+}
